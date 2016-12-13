@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base href="/">
+    <title>Agenda</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="node_modules/skeleton-css/css/normalize.css">
+    <link rel="stylesheet" href="node_modules/skeleton-css/css/skeleton.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
+
+    <!-- Librerías Javascript -->
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <script src="systemjs.config.js"></script>
+    <script>
+      System.import('app').catch(function(err){ console.error(err); });
+    </script>
+  </head>
+
+  <body>
+    <!-- Aplicación Agenda -->
+    <my-app></my-app>
+    <!-- Ejemplos de Binding -->
+    <!--<ejemplos-binding></ejemplos-binding>-->
+    <!-- Ejemplos de Pipes -->
+    <!--<ejemplos-pipes></ejemplos-pipes>-->
+    <!-- Ejemplos de Directivas -->
+    <!--<ejemplos-directivas></ejemplos-directivas>-->
+    <!-- Ejemplos de Inyección de Dependencias -->
+    <!--<ejemplos-inyeccion></ejemplos-inyeccion>-->
+  </body>
+</html>

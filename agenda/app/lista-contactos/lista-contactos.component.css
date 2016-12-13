@@ -1,0 +1,19 @@
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 6px 14px;
+}
+
+li:hover {
+    background-color: #f4f4f4;
+    cursor: pointer;
+}
+
+.icono {
+    border: 0;
+    padding: 0;
+    font-size: 26px;
+    color: #1EAEDB;
+}
